@@ -17,7 +17,7 @@ If your module requires the library provided by this wrapper, you can access the
 JavaScript by:
 
 - Requiring this module as a dependency in your module
-- Loading the file as follows: `backdrop_add_js(  backdrop_get_path('module', 'jstorage') . '/library/jstorage.min.js' );`
+- Loading the library in your module as follows: `backdrop_add_library('jstorage', 'jstorage');`
 
 Issues
 ------
