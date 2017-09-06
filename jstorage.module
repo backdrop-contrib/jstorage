@@ -9,12 +9,11 @@
 /**
  * Implements hook_library_info().
  */
-
 function jstorage_library_info() {
   $libraries['jstorage'] = array(
     'title' => 'jStorage',
     'website' => 'https://github.com/andris9/jStorage',
-    'version' => 'v0.4.12',
+    'version' => '0.4.12',
     'js' => array(
       backdrop_get_path('module', 'jstorage') . '/library/jstorage.min.js' => array(),
     ),
