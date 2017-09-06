@@ -1,0 +1,4 @@
+name = jStorage
+description = Simple wrapper for the jStorage library to make it available to other modules.
+backdrop = 1.x
+type = module
